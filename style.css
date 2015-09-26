@@ -83,68 +83,12 @@ section > h1 {
     font-size: 5em;
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     font-weight: bold;
-    color: blue;
+    color: #293CC3;
 }
 
 #title p {
-    font-size: 120%;
-}
-
-/*//////////////////////////
-// SHOWCASE SECTION SETUP //
-//////////////////////////*/
-
-/* showcase area flexbox */
-#showcase {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-/* spacing between showcase sections */
-#showcase > * {
-    margin-right: 3em;
-}
-#showcase > :last-child {
-    margin-right: 0; 
-}
-
-/* showcase sections do not shrink */
-#showcase > * {
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-}
-
-/*////////////////////////////////
-// SHOWCASE VIDEO SECTION SETUP //
-////////////////////////////////*/
-
-/* underlay positioning */
-#demo {
-    position: relative; 
-}
-#demo > video, #demo > .placeholder {
-    width: 20em;
-    position: absolute;
-    left: 1.625em;
-    top: 6.5625em;
-}
-
-/* iPhone image fills entire box */
-#demo img {
-    width: 100%;
+    font-size: 1.5em;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 
 /*////////////////////////////////////
@@ -177,28 +121,6 @@ section > h1 {
     /*border: lightblue 0.4em solid;*/
     padding: 1em;
     position: relative;
-}
-
-#premium {
-    /*background-color: #C7F2FF;*/
-    background-color: lightblue;
-    color: navy;
-}
-
-#lite {
-    /*background-color: #C3FFC3;*/
-    background-color: lightgreen;
-    color: darkgreen;
-}
-
-#russian_phonetic {
-    background-color: navy;
-    color: lightblue;
-}
-
-#dvorak_colemak {
-    background-color: lavender;
-    color: purple;
 }
 
 /* badge positioning from the bottom */
@@ -250,6 +172,14 @@ section > h1 {
     align-items: center;
 }
 
+@media screen and (max-width: 720px) {
+    #feature_blurbs {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
 #feature_blurbs > * {
     margin: 0 0 0 0;
 }    
@@ -298,6 +228,9 @@ footer {
     padding: 0em;
 }
 
+/*/////////
+// OTHER //
+/////////*/
 
 .arrow-container {
     text-align: center;
@@ -306,7 +239,7 @@ footer {
 .arrow {
     font-size: 8em;
     text-align: center;
-    color: blue;
+    color: #293CC3;
 
     margin-left: auto;
     margin-right: auto;
