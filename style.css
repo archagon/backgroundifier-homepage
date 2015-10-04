@@ -117,7 +117,6 @@ section > h1 {
 }
 
 .app > * {
-    border-radius: 3.5em;
     /*border: lightblue 0.4em solid;*/
     padding: 1em;
     position: relative;
@@ -182,12 +181,6 @@ section > h1 {
 
 #feature_blurbs > * {
     margin: 0 0 0 0;
-}    
-#feature_blurbs > :first-child { 
-    margin-left: 0; 
-}
-#feature_blurbs > :last-child {
-    margin-right: 0; 
 }
 
 #feature_blurbs > * {
