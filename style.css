@@ -80,15 +80,15 @@ section > h1 {
 }
 
 #title h1 {
-    font-size: 5em;
-    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 4em;
+    font-family: Calibri, Lucida Grande, Optima, Arial, sans-serif;
     font-weight: bold;
     color: #293CC3;
 }
 
 #title p {
     font-size: 1.5em;
-    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-family: Calibri, Lucida Grande, Optima, Arial, sans-serif;
 }
 
 /*////////////////////////////////////
